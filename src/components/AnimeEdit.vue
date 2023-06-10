@@ -18,9 +18,8 @@
                 <b-form-input id="input-4" v-model="form.imgUrl" placeholder="Enter an url for the cover image"
                     type="url"></b-form-input>
             </b-form-group>
-
-            <b-button type="submit" variant="primary">Edit</b-button>
-            <b-button type="reset" variant="danger">Reset</b-button>
+            <b-button class="mr-2 mt-1" type="submit" variant="primary">Edit</b-button>
+            <b-button class="ml-2 mt-1" type="reset" variant="danger">Reset</b-button>
         </b-form>
         <b-card class="mt-3" header="Form Data Result">
             <pre class="m-0">{{ form }}</pre>
