@@ -1,7 +1,9 @@
 <template>
-  <div class="row">
-    <div class="col-12 col-md-6 col-lg-4" v-for="(anime,index) in animeList" :key="index">
-      <anime-card :anime="anime"></anime-card>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-sm-3 mt-5" v-for="(anime, index) in animeList" :key="index">
+        <anime-card :anime="anime" :index="index"></anime-card>
+      </div>
     </div>
   </div>
 </template>
@@ -20,5 +22,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
